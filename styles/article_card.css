@@ -1,0 +1,63 @@
+
+.card {
+  position: relative;
+  width: 450px;
+  height: 450px;
+  padding: 20px 30px;
+  background: #b4966e;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card_image {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 5px;
+}
+
+.tiger_image {
+  background-image: url('../images/tiger.png');
+}
+
+.card_title {
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+.card_text {
+  margin-top: 5px;  
+  font-size: 16px;
+  color: black;
+}
+
+.card_link {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+}
+
+.card_link:hover {
+  background: white;
+  color: #b4966e;
+}
+
+.card_link:active {
+  background: #dbd7d7;
+  border: 1px solid #dbd7d7;
+}

@@ -1,0 +1,23 @@
+footer {
+  position: relative;
+  height: 50px;
+  height: 80px;
+  width: 100%;
+  background: #222121;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.footer_icon {
+  position: relative;
+  height: 25px;
+  width: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  color: white;
+  background-image: url('../images/footer_icon.svg');
+}

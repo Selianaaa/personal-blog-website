@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: none;
+  color: white;
   font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -10,53 +10,28 @@ html,
 body {
   width: 100%;
   background: #000;
+  min-height: 100vh;
 }
 
-nav {
+.blog {
   position: relative;
-  height: 50px;
   width: 100%;
-  background: #191919;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.nav_title {
-  color: white;
-  text-decoration: none;
-  font-size: 23px;
-  cursor: pointer;
-}
-
-.nav_title:hover {
-  color: #b4966e;
-}
-
-#email_input {
-  width: 150px;
-  margin: 0 10px;
-  height: 25px;
-}
-
-.input_text {
-  color: white;
-}
-
-.subscribe_button {
-  position: relative;
-  border: none;
-  border-radius: 3px;
+.page_title {
+  margin-top: 40px;
   text-align: center;
-  cursor: pointer;
-  padding: 4px 15px;
   color: white;
-  background: transparent;
-  border: 1px solid white;
+  font-size: 38px;
 }
 
-.subscribe_button:hover {
-  background: white;
-  color: #191919;
+.cards_wrapper {
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0 50px;
 }
