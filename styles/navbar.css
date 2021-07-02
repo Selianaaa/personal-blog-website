@@ -22,7 +22,7 @@ nav {
   color: #cfaa79;
 }
 
-#email_input {
+#email-input {
   width: 150px;
   margin: 0 10px;
   height: 25px;
@@ -31,7 +31,7 @@ nav {
 }
 
 
-.subscribe_button {
+.subscribe-button {
   position: relative;
   border: none;
   border-radius: 3px;
@@ -43,7 +43,7 @@ nav {
   border: 1px solid white;
 }
 
-.subscribe_button:hover {
+.subscribe-button:hover {
   background: white;
   color: #191919;
 }

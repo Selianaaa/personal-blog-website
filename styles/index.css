@@ -20,14 +20,14 @@ body {
   padding-bottom: 50px;
 }
 
-.page_title {
+.page-title {
   margin-top: 40px;
   text-align: center;
   color: white;
   font-size: 38px;
 }
 
-.cards_wrapper {
+.cards-wrapper {
   position: relative;
   margin-top: 50px;
   display: flex;

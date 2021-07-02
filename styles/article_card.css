@@ -12,7 +12,7 @@
   justify-content: space-between;
 }
 
-.card_image {
+.card-image {
   position: relative;
   height: 200px;
   width: 100%;
@@ -22,22 +22,22 @@
   border-radius: 5px;
 }
 
-.tiger_image {
+.tiger-image {
   background-image: url('../images/tiger.png');
 }
 
-.card_title {
+.card-title {
   margin-top: 10px;
   font-size: 22px;
 }
 
-.card_text {
+.card-text {
   margin-top: 5px;  
   font-size: 16px;
   color: black;
 }
 
-.card_link {
+.card-link {
   position: relative;
   width: 100%;
   height: 40px;
@@ -52,12 +52,12 @@
   font-size: 21px;
 }
 
-.card_link:hover {
+.card-link:hover {
   background: white;
   color: #b4966e;
 }
 
-.card_link:active {
+.card-link:active {
   background: #dbd7d7;
   border: 1px solid #dbd7d7;
 }
