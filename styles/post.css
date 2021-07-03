@@ -1,0 +1,58 @@
+@import './global.css';
+@import './footer.css';
+@import './navbar.css';
+@import './article.css';
+@import './author_card.css';
+
+.post {
+  position: relative;
+  width: 100%;
+  padding: 50px 40px;
+}
+
+.back-link {
+  position: relative;
+  text-decoration: none;
+  margin-top: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.back-link:before {
+  content: '';
+  float: left;
+  position: relative;
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+  width: 8px;
+  height: 8px;
+  margin-right: 10px;
+} 
+
+.back-link:hover {
+  color: #cfaa79;
+}
+
+.back-link:hover:before {
+  border-color: #cfaa79;
+  transform: rotate(-45deg) translateY(5px);
+}
+
+.back-link:active {
+  color: #866e4d;
+}
+
+.back-link:active:before {
+  border-color: #866e4d;
+}
+
+
+@media (max-width: 960px) {
+  .post {
+    padding: 30px 15px;
+  }
+  
+  .back-link {
+    margin-top: 10px;
+  }
+}

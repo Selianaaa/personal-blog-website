@@ -1,0 +1,56 @@
+.article {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-content {
+  position: relative;
+  flex: 1;
+}
+
+.article-image {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  background-color: #b4966e;
+  padding: 10px 30px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 80%;
+  border-radius: 5px;
+}
+
+.tiger-image {
+  background-image: url('../images/tiger.png');
+}
+
+.article-title {
+  margin-top: 20px;
+  font-size: 26px;
+}
+
+.article-text {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+
+@media (max-width: 960px) {
+  .article {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+
+  .article-title {
+    margin-top: 15px;
+    font-size: 22px;
+  }
+  
+  .article-text {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+}

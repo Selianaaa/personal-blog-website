@@ -1,0 +1,58 @@
+.author {
+  position: relative;
+  width: 300px;
+  margin-left: 30px;
+  border-radius: 5px;
+  background: #ff6f32;
+  padding: 15px 30px;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.author-title {
+  color: black;
+  font-size: 23px;
+  text-align: center;
+}
+
+.author-image {
+  position: relative;
+  height: 70px;
+  width: 70px;
+  margin-top: 10px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 50%;
+  background-image: url('../images/man.jpeg');
+  align-self: center;
+}
+
+.author-name {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.author-text {
+  color: black;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+@media (max-width: 960px) {
+  .author {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 0;
+  }
+  
+  .author-title {
+    font-size: 20px;
+  }
+
+  .author-name, .author-text {
+    font-size: 18px;
+  }
+}

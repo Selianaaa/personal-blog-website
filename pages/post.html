@@ -3,20 +3,26 @@
 <html>
   <head>
     <title>Seliana's Blog</title>
-    <link href="../styles/index.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="../styles/post.css" rel="stylesheet" />
+    <link href="../images/page_icon_black.svg" rel="icon" />
   </head>
   <body>
     <nav>
       <a class="nav_title" href="../index.html">Seliana's Blog</a>
-      <form>
-        <label for="email-input" class="input_text">Email:</label>
-        <input id="email-input" type="text"/>
+      <form class="subscribe-form">
+        <div class="input-wrapper">
+          <label for="email-input" class="input-lable">Email:</label>
+          <input id="email-input" type="text"/>
+        </div>
         <input type="submit" class="subscribe-button" value="Subscribe"> 
       <form>
     </nav>
-    <section class="article">
-      <h1 class="page-title">Tiger</h1>
-      <div class="article-wrapper">
+    <section class="post">
+      <h1 class="page-title" style="margin-bottom: 20px">Tiger</h1>
+       <a href="../index.html" class="back-link">Back to blog</a>
+      <div class="article">
         <div class="article-content">
           <div class="article-image tiger-image"></div>
           <h2 class="article-title">Tiger</h2>
@@ -24,7 +30,7 @@
           <p class="article-text">The tiger was first scientifically described in 1758 and once ranged widely from the Eastern Anatolia Region in the west to the Amur River basin in the east, and in the south from the foothills of the Himalayas to Bali in the Sunda Islands. Since the early 20th century, tiger populations have lost at least 93% of their historic range and have been extirpated from Western and Central Asia, the islands of Java and Bali, and in large areas of Southeast and South Asia and China. Today, the tiger's range is fragmented, stretching from Siberian temperate forests to subtropical and tropical forests on the Indian subcontinent and Sumatra.</p>
         </div>
         
-        <div class="article-author">
+        <div class="author">
           <h3 class="author-title">Author</h3>
           <div class="author-image"></div>
           <p class="author-text"><span class="author-name">Name: </span>Jack Bon</p>
@@ -34,7 +40,7 @@
       </div>
     </section>
     <footer>
-      <div class="footer-copyright">© 2021 Copyright Text</div>
+      <div class="footer-copyright">©  2021 Created by Seliana All Rights Reserved</div>
       <div class="footer-icons">
         <a href="#" class="footer-icon in_icon"></a>
         <a href="#" class="footer-icon facebook_icon"></a>

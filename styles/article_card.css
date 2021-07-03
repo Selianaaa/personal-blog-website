@@ -1,7 +1,8 @@
 
 .card {
   position: relative;
-  width: 450px;
+  width: 40vw;
+  max-width: 950px;
   height: 450px;
   padding: 20px 30px;
   background: #b4966e;
@@ -22,6 +23,9 @@
   border-radius: 5px;
 }
 
+.tiger-image {
+  background-image: url('../images/tiger.png');
+}
 
 .card-title {
   margin-top: 10px;
@@ -57,4 +61,17 @@
 .card-link:active {
   background: #dbd7d7;
   border: 1px solid #dbd7d7;
+}
+
+
+
+@media (max-width: 960px) {
+  .card {
+    width: 100%;
+    height: 450px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+ 
 }

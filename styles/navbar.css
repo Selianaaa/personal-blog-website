@@ -3,7 +3,6 @@ nav {
   top: 0;
   left: 0;
   z-index: 100;
-  height: 50px;
   width: 100%;
   background: #222121;
   padding: 10px 20px;
@@ -18,8 +17,29 @@ nav {
   cursor: pointer;
 }
 
+.nav_title:before {
+  content: '';
+  float: left;
+  height: 25px;
+  width: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-image: url('../images/page_icon.svg');
+  margin-right: 10px;
+}
+
 .nav_title:hover {
   color: #cfaa79;
+}
+
+.subscribe-form {
+  display: flex;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
 }
 
 #email-input {
@@ -29,7 +49,6 @@ nav {
   padding: 0 5px;
   color: black;
 }
-
 
 .subscribe-button {
   position: relative;
@@ -50,4 +69,21 @@ nav {
 
 .subscribe-button:active {
   background: #dbd7d7;
+}
+
+
+@media (max-width: 960px) {
+  nav {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .subscribe-form {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+
+  .subscribe-button {
+    margin-top: 10px;
+  }
 }
