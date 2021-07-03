@@ -4,7 +4,9 @@ let lastScrollTop = window.pageYOffset
 /**
  * Submit subscribe form handler
  */
-function submitForm() {
+function submitForm(event) {
+  event.preventDefault()
+  
   alert('Your are subscribed to news letters!')
 }
 
