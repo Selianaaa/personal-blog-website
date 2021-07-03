@@ -1,3 +1,8 @@
+@import './footer.css';
+@import './navbar.css';
+@import './article_card.css';
+
+
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +25,10 @@ body {
   padding-bottom: 50px;
 }
 
+.tiger-image {
+  background-image: url('../images/tiger.png');
+}
+
 .page-title {
   margin-top: 40px;
   text-align: center;
@@ -34,4 +43,91 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding: 0 50px;
+}
+
+.article {
+  position: relative;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.article-wrapper {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-content {
+  position: relative;
+  flex: 1;
+}
+
+.article-image {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  background-color: #b4966e;
+  padding: 10px 30px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 80%;
+  border-radius: 5px;
+}
+
+.article-title {
+  margin-top: 20px;
+  font-size: 26px;
+}
+
+.article-text {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.article-author {
+  position: relative;
+  width: 300px;
+  margin-left: 30px;
+  border-radius: 5px;
+  background: #ff6f32;
+  padding: 15px 30px;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.author-title {
+  color: black;
+  font-size: 23px;
+  text-align: center;
+}
+
+.author-image {
+  position: relative;
+  height: 70px;
+  width: 70px;
+  margin-top: 10px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 50%;
+  background-image: url('../images/man.jpeg');
+  align-self: center;
+}
+
+.author-name {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.author-text {
+  color: black;
+  margin-top: 10px;
+  font-size: 20px;
 }

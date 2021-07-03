@@ -47,3 +47,7 @@ nav {
   background: white;
   color: #191919;
 }
+
+.subscribe-button:active {
+  background: #dbd7d7;
+}
