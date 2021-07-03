@@ -3,7 +3,7 @@
   width: 300px;
   margin-left: 30px;
   border-radius: 5px;
-  background: #ff6f32;
+  background: #A5C94A;
   padding: 15px 30px;
   align-self: flex-start;
   display: flex;
@@ -25,6 +25,7 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
   border-radius: 50%;
+  border: 2px solid white;
   background-image: url('../images/man.jpeg');
   align-self: center;
 }
@@ -46,6 +47,7 @@
     width: 100%;
     margin-top: 40px;
     margin-left: 0;
+    padding: 15px 20px;
   }
   
   .author-title {
