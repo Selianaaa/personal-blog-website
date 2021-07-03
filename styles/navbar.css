@@ -14,7 +14,6 @@ nav {
 .nav_title {
   text-decoration: none;
   font-size: 23px;
-  padding-bottom: 10px;
   cursor: pointer;
 }
 
@@ -81,6 +80,10 @@ nav {
     flex-direction: column;
   }
 
+  .nav_title {
+    padding-bottom: 10px;
+  }
+  
   #email-input {
     margin: 0 0 0 10px;
     width: 100%;
@@ -88,7 +91,7 @@ nav {
 
   #subscribe-form {
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .subscribe-button {
