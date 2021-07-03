@@ -5,7 +5,7 @@
   max-width: 950px;
   height: 450px;
   padding: 20px 30px;
-  background: #c2a580;
+  background: #AF8C5A;
   border-radius: 10px;
   margin-bottom: 30px;
   display: flex;
@@ -68,7 +68,7 @@
 
 .card-link:hover {
   background: white;
-  color: #c2a580;
+  color: #AF8C5A;
 }
 
 .card-link:active {
