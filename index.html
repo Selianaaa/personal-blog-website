@@ -7,16 +7,17 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="styles/index.css" rel="stylesheet" />
     <link href="images/page_icon_black.svg" rel="icon" />
+    <script src="scripts/index.js" type="text/javascript"></script>
   </head>
   <body>
     <nav>
       <a class="nav_title" href="#">Seliana's Blog</a>
-      <form class="subscribe-form">
+      <form id="subscribe-form">
         <div class="input-wrapper">
           <label for="email-input" class="input-lable">Email:</label>
           <input id="email-input" type="text"/>
         </div>
-        <input type="submit" class="subscribe-button" value="Subscribe"> 
+        <input type="submit" class="subscribe-button" value="Subscribe" onclick="submitForm()"> 
       <form>
     </nav>
     <section class="blog">
@@ -61,6 +62,9 @@
         <a href="#" class="footer-icon twitter_icon"></a>
       </div>
     </footer>
-  <body>
 
+  <body>
+  <script>
+    checkSubscribeVisibility()
+  </script>
 </html>
