@@ -38,4 +38,4 @@ Project is made to utilize HTML and CSS skills such as layout, styling.
 To run this project download the project folder and open the index.html file with web client.
 
 ## Demo
-You can check the live project [here](https://selianaaa.github.iopersonal-blog-website/).
+Check the project [here](https://selianaaa.github.io/personal-blog-website/).
