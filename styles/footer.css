@@ -34,15 +34,15 @@ footer {
   transform: scale(1.2);
 }
 
-.in_icon {
+.in-icon {
   background-image: url('../images/social/linkedin.svg');
 }
 
-.facebook_icon {
+.facebook-icon {
   background-image: url('../images/social/facebook.svg');
 }
 
-.twitter_icon {
+.twitter-icon {
   height: 27px;
   height: 27px;
   background-image: url('../images/social/twitter.svg');

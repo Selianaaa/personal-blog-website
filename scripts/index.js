@@ -16,7 +16,6 @@ function checkSubscribeVisibility() {
   const subscribeForm = document.getElementById('subscribe-form')
 
   if (currentScroll > lastScrollTop) {
-    console.log('less')
     subscribeForm.style.opacity = "0";
     subscribeForm.style.maxHeight = "0";
     subscribeForm.style.marginTop = "0";
