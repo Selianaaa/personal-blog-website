@@ -24,7 +24,20 @@
 }
 
 .tiger-image {
-  background-image: url('../images/tiger.png');
+  background-image: url('../images/animals/tiger.png');
+}
+
+.mouse-image {
+  background-image: url('../images/animals/shark.png');
+}
+
+.pig-image {
+  background-image: url('../images/animals/pig.png');
+}
+
+.fox-image {
+  background-image: url('../images/animals/fox.png');
+  /* background-image: url('../images/tiger.png'); */
 }
 
 .card-title {
