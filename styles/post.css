@@ -30,20 +30,20 @@
 } 
 
 .back-link:hover {
-  color: #cfaa79;
+  color: #A5C94A;
 }
 
 .back-link:hover:before {
-  border-color: #cfaa79;
+  border-color: #A5C94A;
   transform: rotate(-45deg) translateY(5px);
 }
 
 .back-link:active {
-  color: #866e4d;
+  color: #718D2A;
 }
 
 .back-link:active:before {
-  border-color: #866e4d;
+  border-color: #718D2A;
 }
 
 
