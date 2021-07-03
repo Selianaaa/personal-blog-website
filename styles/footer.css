@@ -10,6 +10,10 @@ footer {
   align-items: center;
 }
 
+.footer-icons {
+  position: relative;
+  display: flex;
+}
 
 .footer-icon {
   position: relative;
@@ -20,4 +24,28 @@ footer {
   background-position: 50% 50%;
   color: white;
   background-image: url('../images/footer_icon.svg');
+  cursor: pointer;
+  transition: transform .3s;
+}
+
+.footer-icon:not(:first-child) {
+  margin-left: 15px;
+}
+
+.footer-icon:hover {
+  transform: scale(1.2);
+}
+
+.in_icon {
+  background-image: url('../images/social/linkedin.svg');
+}
+
+.facebook_icon {
+  background-image: url('../images/social/facebook.svg');
+}
+
+.twitter_icon {
+  height: 27px;
+  height: 27px;
+  background-image: url('../images/social/twitter.svg');
 }
